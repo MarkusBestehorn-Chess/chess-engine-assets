@@ -4,9 +4,10 @@ Produced engine artefacts for the `chess` project: binary files this project **c
 than downloading, published here so that every installed build can obtain them by an ordinary anonymous
 download.
 
-**This repository holds artefacts, not source.** It carries no build system, no tests and no application
-code. The producing code, the declarations that pin these bytes, and the reasoning behind each artefact live
-in the `chess` project.
+**This repository's tree holds artefacts, not source:** no build system, no tests and no application code.
+Each release that carries a modified artefact also carries a Corresponding-Source archive of the code that
+produced it. The producing code, the declarations that pin these bytes, and the reasoning behind each
+artefact live in the `chess` project.
 
 ## Why a separate repository
 
@@ -31,9 +32,16 @@ Read the release notes of the tag you are downloading from.
 
 Artefacts derived from GPL-licensed upstreams are conveyed under those upstreams' licences, with a
 Corresponding-Source pointer to the exact upstream commit and — where this project modified the work — a
-prominent modification notice with its date, as GPL-3.0 §5(a) requires. `LICENSE` in this repository is the
-verbatim GNU General Public License version 3, the licence the artefacts published here so far are conveyed
-under.
+prominent modification notice with its date, as GPL-3.0 §5(a) requires. Each release's licence:
+
+- `engine-assets-2026-09-19`: the Band 2200 artefact, conveyed under GPL-3.0, with `LICENSE` in this
+  repository as its verbatim text;
+- `engine-assets-2026-09-21`: AGPL-3.0-or-later, with the release asset `maia3-AGPLv3.txt` as its text;
+- the Corresponding-Source archives' project files: MIT.
+
+For `engine-assets-2026-09-19` and `engine-assets-2026-09-21`, the "Source code" downloads GitHub attaches to
+the release are archives of this repository's tree at the tag's commit, which predates this README; the
+Corresponding Source of this project's part is the Corresponding-Source archive that release carries.
 
 ## Tags
 
