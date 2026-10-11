@@ -5,9 +5,9 @@ than downloading, published here so that every installed build can obtain them b
 download.
 
 **This repository's tree holds artefacts, not source:** no build system, no tests and no application code.
-Each release that carries a modified artefact also carries a Corresponding-Source archive of the code that
-produced it. The producing code, the declarations that pin these bytes, and the reasoning behind each
-artefact live in the `chess` project.
+Each release that carries an artefact modified from a copyleft upstream also carries a Corresponding-Source
+archive of the code that produced it. The producing code, the declarations that pin these bytes, and the
+reasoning behind each artefact live in the `chess` project.
 
 ## Why a separate repository
 
@@ -37,11 +37,19 @@ prominent modification notice with its date, as GPL-3.0 §5(a) requires. Each re
 - `engine-assets-2026-09-19`: the Band 2200 artefact, conveyed under GPL-3.0, with `LICENSE` in this
   repository as its verbatim text;
 - `engine-assets-2026-09-21`: AGPL-3.0-or-later, with the release asset `maia3-AGPLv3.txt` as its text;
+- `engine-assets-2026-10-11`: the Arasan files under MIT, with the release asset `arasan-MIT.txt` as their
+  text; the Rodent IV files under GPL-3.0, with `LICENSE` in this repository as its verbatim text; and
+  `rodent-corresponding-source.tar`, whose project files are MIT and whose two patches are GPL-3.0;
 - the Corresponding-Source archives' project files: MIT.
 
 For `engine-assets-2026-09-19` and `engine-assets-2026-09-21`, the "Source code" downloads GitHub attaches to
 the release are archives of this repository's tree at the tag's commit, which predates this README; the
 Corresponding Source of this project's part is the Corresponding-Source archive that release carries.
+
+For `engine-assets-2026-10-11`, the "Source code" downloads GitHub attaches to the release are likewise
+archives of this repository's tree at the tag's commit, which predates this README; the Corresponding Source of
+this project's part of the Rodent IV files is `rodent-corresponding-source.tar`, which that release carries, and
+the Arasan files, being MIT, owe none.
 
 ## Tags
 
