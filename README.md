@@ -38,8 +38,12 @@ prominent modification notice with its date, as GPL-3.0 §5(a) requires. Each re
   repository as its verbatim text;
 - `engine-assets-2026-09-21`: AGPL-3.0-or-later, with the release asset `maia3-AGPLv3.txt` as its text;
 - `engine-assets-2026-10-11`: the Arasan files under MIT, with the release asset `arasan-MIT.txt` as their
-  text; the Rodent IV files under GPL-3.0, with `LICENSE` in this repository as its verbatim text; and
-  `rodent-corresponding-source.tar`, whose project files are MIT and whose two patches are GPL-3.0;
+  text; the Rodent IV files under GPL-3.0, with `LICENSE` in this repository as its verbatim text;
+  `rodent-corresponding-source.tar`, whose project files are MIT and whose two patches are GPL-3.0; the
+  Fairy-Stockfish files under GPL-3.0, with their archive's member `UPSTREAM-LICENSE-GPL-3.0.txt` as its text;
+  and `fairy-stockfish-corresponding-source.tar`, sha256
+  `672dbf633384dd876c9d91340163621cc2a31e198f297ca593173b125aeb8783`, made from the `chess` project's commit
+  `896dbc31653517e3cf79f0c87f09cf01adac42c3`, whose project files are MIT and whose two patches are GPL-3.0;
 - the Corresponding-Source archives' project files: MIT.
 
 For `engine-assets-2026-09-19` and `engine-assets-2026-09-21`, the "Source code" downloads GitHub attaches to
@@ -48,8 +52,9 @@ Corresponding Source of this project's part is the Corresponding-Source archive 
 
 For `engine-assets-2026-10-11`, the "Source code" downloads GitHub attaches to the release are likewise
 archives of this repository's tree at the tag's commit, which predates this README; the Corresponding Source of
-this project's part of the Rodent IV files is `rodent-corresponding-source.tar`, which that release carries, and
-the Arasan files, being MIT, owe none.
+this project's part of the Rodent IV files is `rodent-corresponding-source.tar`, and of the Fairy-Stockfish files
+`fairy-stockfish-corresponding-source.tar`, both of which that release carries, and the Arasan files, being MIT,
+owe none.
 
 ## Tags
 
